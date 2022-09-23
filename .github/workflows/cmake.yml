@@ -36,7 +36,7 @@ jobs:
       uses: actions/upload-artifact@v3.1.0
       with:
         name: main
-        path: ${{github.workspace}}/build/main
+        path: ${{github.workspace}}/build/tut_02
     
     - name: Download a Build Artifact
       uses: actions/download-artifact@v3.0.0
