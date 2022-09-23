@@ -36,7 +36,7 @@ jobs:
       uses: actions/upload-artifact@v3.1.0
       with:
         name: main
-        path: ${{github.workspace}}/build/tut_02
+        path: ${{github.workspace}}/build/bin/
 
     # - name: Test
       # working-directory: ${{github.workspace}}/build
