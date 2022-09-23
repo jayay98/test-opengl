@@ -1,8 +1,9 @@
 {
 	"name": "test-opengl",
-	"version-string": "0.0.1",
+	"version-string": "0.0.2",
 	"dependencies": [
 		"glfw3",
-		"glew"
+		"glew",
+		"glm"
 	]
 }
