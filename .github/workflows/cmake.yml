@@ -37,11 +37,6 @@ jobs:
       with:
         name: main
         path: ${{github.workspace}}/build/tut_02
-    
-    - name: Download a Build Artifact
-      uses: actions/download-artifact@v3.0.0
-      with:
-        name: main
 
     # - name: Test
       # working-directory: ${{github.workspace}}/build
